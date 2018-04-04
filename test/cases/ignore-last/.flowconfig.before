@@ -1,0 +1,9 @@
+[include]
+
+[libs]
+
+[options]
+
+[ignore]
+.*/build/.*
+<PROJECT_ROOT>/node_modules/xml2js/.*

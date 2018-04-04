@@ -1,0 +1,10 @@
+[ignore]
+.*/build/.*
+<PROJECT_ROOT>/node_modules/xml2js/.*
+<PROJECT_ROOT>/node_modules/flow-config-parser/.* # generated automatically cause dev-dependency
+
+[include]
+
+[libs]
+
+[options]
