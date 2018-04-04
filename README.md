@@ -1,4 +1,4 @@
-#flow-ignore-dev-deps
+# flow-ignore-dev-deps
 
 This package update .flowconfig's ignore section with actual development dependencies.
 It allows to start flow server a bit faster and ignore flow issues in dev deps
