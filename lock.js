@@ -1,5 +1,7 @@
 const fs = require('fs');
 
+require('./object-entries-polyfill.js');
+
 function getDevDependenciesPaths({ dependencies }, { devDependencies = new Set(), dependencyPath = [] } = {}) {
   if (!dependencies) return;
 
