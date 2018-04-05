@@ -40,7 +40,7 @@ describe('addDevDependenciesIntoIgnoreSection', function () {
     const flowconfigPath = path.join(__dirname, 'cases', testCase, '.flowconfig');
 
     before(function () {
-      fs.copyFileSync(beforePath, flowconfigPath);
+      fs.writeFileSync(flowconfigPath, fs.readFileSync(beforePath, 'utf8'));
     });
 
     after(function () {
@@ -59,7 +59,7 @@ describe('addDevDependenciesIntoIgnoreSection', function () {
       const expectedPath = path.join(__dirname, 'cases', regularCase, '.flowconfig.expected');
 
       before(function () {
-        fs.copyFileSync(beforePath, flowconfigPath);
+	fs.writeFileSync(flowconfigPath, fs.readFileSync(beforePath, 'utf8'));
       });
 
       after(function () {
