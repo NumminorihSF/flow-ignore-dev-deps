@@ -1,6 +1,6 @@
 {
   "name": "flow-ignore-dev-deps",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Generate [ignore] section for .flowconfig to make flow-bin faster",
   "main": "index.js",
   "directories": {
