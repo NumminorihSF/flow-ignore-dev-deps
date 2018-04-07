@@ -1,3 +1,6 @@
+### 0.2.2
+Resolve issue with missed file in package.json's files section.
+
 ### 0.2.1
 Add bin.js to run as global installed package.
 

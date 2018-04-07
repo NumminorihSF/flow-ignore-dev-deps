@@ -38,6 +38,7 @@
     "lock.js",
     "generateIgnoreSectionLines.js",
     "flowconfig.js",
+    "object-entries-polyfill.js",
     "addDevDependenciesIntoIgnoreSection.js"
   ],
   "bin": "./bin.js"
