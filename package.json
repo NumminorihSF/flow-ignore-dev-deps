@@ -12,6 +12,7 @@
     "mocha": "^5.0.5"
   },
   "scripts": {
+    "start": "node ./index.js",
     "test": "mocha"
   },
   "repository": {
@@ -32,11 +33,12 @@
   },
   "homepage": "https://github.com/NumminorihSF/flow-ignore-dev-deps#readme",
   "files": [
+    "bin.js",
     "index.js",
     "lock.js",
     "generateIgnoreSectionLines.js",
     "flowconfig.js",
     "addDevDependenciesIntoIgnoreSection.js"
   ],
-  "bin": "./index.js"
+  "bin": "./bin.js"
 }

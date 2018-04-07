@@ -1,4 +1,7 @@
-### 0.2.0
+### 0.2.1
+Add bin.js to run as global installed package.
+
+## 0.2.0
 Change script to run via npx.
 
 ### 0.1.3
