@@ -1,3 +1,6 @@
+### 0.2.0
+Change script to run via npx.
+
 ### 0.1.3
 Make code works with nodejs v6.
 
